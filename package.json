@@ -1,0 +1,21 @@
+{
+  "name": "shred-connect",
+  "version": "1.0.0",
+  "description": "A web application that helps metal musicians to connect and make music together",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start:prod": "NODE_ENV=production nodemon app.js"
+  },
+  "author": "Eveline Schmidiger",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.13.21",
+    "dotenv": "^16.3.1"
+  },
+  "devdependencies": {
+
+  }
+}

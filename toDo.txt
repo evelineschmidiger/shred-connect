@@ -1,0 +1,59 @@
+----- TO DO --------
+
+GENERAL
+- Change to es6 modules
+
+MAYBE
+- joi package to validate user input (?) / or validator.js
+
+MONGO DB
+- create indexes
+- create enum for instruments, style, canton
+- What if code already exists? Put request will fail - very unlikely -> just try again (?)...
+- (create an aggregation pipeline for stats)
+- (Aliasing, lesson 100 - create route to show the most viewed Ad)
+- (create Slug with Document-save() middleware)
+
+FUNCTIONALITY
+- Wenn jemand inserate Code vergessen hat? - Support-Formular? - E-Mail-Adresse bestätigen?
+- (How to count the views?)
+
+AUTHENTIFICATION
+- Finish Authentification logic - do it later!
+- FrontEnd: Save Auth Token in local Storage (not cookies)
+save secret key somewhere and use it
+
+E-MAIL
+- create E-mails with Nodemailer - when ad created, updated, deleted, code forgotten, answer received
+
+FRONTEND
+- (Image upload - check content?) -> use choice of pictograms/emojis instead - create image out of it
+- Ant Design - Vorgestaltete Buttons etc anstelle von Tailwind (React UI)
+
+DEPLOYMENT
+- Render.com for Deployment - guter Nachfolger von Heroku
+
+ERROR HANDLING
+
+
+
+
+
+----- KEEP IN MIND --------
+
+- fat models (business logic) --- thin controllers (application logic)
+- use Async/Await, mit try/catch arbeiten, kein spaghetti-code
+
+
+
+
+----- NOTES --------
+- Promise.all - resultat in array, erst wenn alle fertig sind!
+- Promise.race - wartet auf das schnellste aufgelöste Promise
+
+
+
+
+
+
+
