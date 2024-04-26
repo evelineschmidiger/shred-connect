@@ -26,9 +26,16 @@ save secret key somewhere and use it
 E-MAIL
 - create E-mails with Nodemailer - when ad created, updated, deleted, code forgotten, answer received
 
+REACT
+- use immutable.js if I have to make a lot of copies to change states
+- create a component tree - basic structure for react
+
 FRONTEND
 - (Image upload - check content?) -> use choice of pictograms/emojis instead - create image out of it
-- Ant Design - Vorgestaltete Buttons etc anstelle von Tailwind (React UI)
+- Ant Design (package, react-basis) - Vorgestaltete Buttons etc anstelle von Tailwind (React UI)
+- Tailwind: Kostet sobald ich komponenten brauche
+- Tailwind UI, Tailwind CSS
+- React Bootstrap - gut für mvp minimal viable product - nicht richtig wenns schön sein muss
 
 DEPLOYMENT
 - Render.com for Deployment - guter Nachfolger von Heroku
@@ -52,8 +59,55 @@ ERROR HANDLING
 - Promise.race - wartet auf das schnellste aufgelöste Promise
 
 
+SPA - Single Page Application
+--- viele Datensätze - wie filtern für gute performance?
+- Vorfiltern im Backend mit index - vorgefiltert schicken
+
+fetch daten abrufen auch von eigenem backend - daten updaten in client
+
+Erst Daten abrufen - html etc
+dann weitere requests (wie event handler) ohne ganze Seite neu zu laden
+
+User Einstellungen Endpoint /me 
+request - dinge im state speichern 
+f5 applikation neu laden - state verloren 
+effizienter mit graphql (interner cash - apollo cash - schwierig - gute performance)
+
+RESTful + grapOL - beide in gleichem Projekt möglich
+
+React.js
+Open Source
+- Ohne React: Übersichtsverlust - Wann passiert was? Statusänderungen etc..
+- Schnelle Ladezeiten
+- Komponenten definieren, Was für Zustände möglich? Dann Daten anzeigen lassen entsprechend Zuständen
+
+- React native - cross-plattform framework - tools um auch apps zu machen - performance nachteile
+- flutter bessere performance als react native - andere programmiersprache go, zu viel zu lernen
+- react native + expo (man sieht direkt wie app aussieht)
+- react-table
+
+bei frameworks, packages etc beliebtheit checken! wird es noch gebraucht?
 
 
+- nicht babel aufbau um jsx zu transpilen (nicht so wie im buch)
+- besser: create react-app (CRA) - nicht zu empfehlen auch wieder Vorgestaltete
+- für CRA - npx!
+
+VITE JS
+rust compiler (systemnahe programmiersprache - sehr performant)
+watcher der auf rust basiert
+
+BUN / TYPESCRIPT
+neuere node alternative: bun - untestützt typescript
+typescript: viel: zusätzliche syntax
+sollte eigentlich immer gebraucht werden
+auch gut für testing
 
 
+PNPM - YARN
 
+Projekt: Vide und PNPM
+
+render statt heroku
+
+dist, node_modules, .yarn - in gitignore!

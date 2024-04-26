@@ -3,6 +3,7 @@ const dotenv = require("dotenv");
 dotenv.config({path: "./config.env"}) // process.env.NODE-ENV === "development"
 const mongoose = require("mongoose");
 const adRouter = require("./routes/adRoutes");
+const cors = require("cors");
 
 // Connect to DB
 const DB = process.env.DATABASE.replace("<PASSWORD>", process.env.DATABASE_PASSWORD)
@@ -15,6 +16,9 @@ mongoose.connect(DB, {
 
 
 const app = express();
+
+app.use(cors({origin: 'http://localhost:5173', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
+
 
 // Middleware - ads body data to request object
 app.use(express.json());

@@ -19,12 +19,12 @@ class APIFeatures {
         queryStr = queryStr.replace(/\b(gte|gt|lte|lt|all)\b/g, match => `$${match}`);
 
         // find-method returns query - makes chaining possible
-        // const query = Ad.find().where("canton").equals("basel-stadt").where("145765");
+        // const query = Ad.find().where("canton").equals("Basel-Stadt").where("145765");
         // as soon as we use the find-method with await: query is executed and returns documents!
         // save query, chain it, and just at the and execute it with await
         // chaining find() a second time here
         this.query = this.query.find(JSON.parse(queryStr))
-
+        
         return this;
     }
 
@@ -51,6 +51,7 @@ class APIFeatures {
             // exclude "-__v"
             this.query = this.query.select("-__v")
         }
+        console.log(this);
         return this;
     }
 

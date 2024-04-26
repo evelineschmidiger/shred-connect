@@ -4,8 +4,8 @@
         "message": "Achtung Metalheads! Brutal Slaughter Witches, die amtierenden Titanen des extremen Metal, sind auf der Suche nach neuem Blut, um ihrem Hexenzirkel beizutreten! Wenn du auf der Gitarre schreddern, das Schlagzeug wie einen Kriegsmarsch hämmern oder dämonische Basslinien beschwören kannst, wollen wir dich. Übe in den feurigen Gruben des akustischen Chaos und werde Teil der okkulten Revolution. Bewirb dich jetzt und lass uns gemeinsam das Chaos heraufbeschwören!",
         "messageEN": "Attention Metalheads! Brutal Slaughter Witches, the reigning titans of extreme metal, are on the hunt for new blood to join their coven! If you can shred on guitar, pound the drums like a war march, or summon demonic basslines, we want you. Rehearse in the fiery pits of sonic mayhem and be part of the occult revolution. Apply now and let's conjure chaos together!",
         "style": ["black", "thrash", "occult"],
-        "instrument": ["guitar", "bass", "drums"],
-        "canton": "basel-stadt",
+        "instrument": ["Gitarre", "Bass", "Schlagzeug"],
+        "canton": "Basel-Stadt",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -13,8 +13,8 @@
         "message": "Aufruf an alle Überlebenden der Schallwellen! Nuclear Winters, die apokalyptischen Architekten des Metal, sind auf der Suche nach Mitstreitern, die sich unserem post-apokalyptischen Kreuzzug anschließen. Wenn ihr ein Riff-Maestro, ein Schlagzeug-Vernichter oder ein Bass-Bombardierer seid, dann betretet mit uns das radioaktive Ödland. Entfessle deine musikalische Wut, nimm den Fallout in Kauf und lass uns eine Symphonie erschaffen, die durch den nuklearen Dunst widerhallt. Bewirb dich noch heute und werde Teil des Widerstands!",
         "messageEN": "Calling all sonic survivors! Nuclear Winters, the apocalyptic architects of metal, are in search of fellow warriors to join our post-apocalyptic crusade. If you're a riff maestro, drum annihilator, or bass bombadier, step into the radioactive wasteland with us. Unleash your musical fury, embrace the fallout, and let's create a symphony that echoes through the nuclear haze. Apply today and become a part of the resistance!",
         "style": ["atmospheric", "black", "ambient"],
-        "instrument": ["guitar"],
-        "canton": "basel-land",
+        "instrument": ["Gitarre"],
+        "canton": "Basel-Land",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -22,8 +22,8 @@
         "message": "Zombies, vereinigt euch! Braineater, die untoten Meister des Metal, lassen ihr Lineup wieder auferstehen und brauchen frische Leichen... äh, Musiker! Egal, ob du eine Gitarre wie eine Waffe schwingst, die Trommeln wie ein wiederbelebtes Herz schlägst oder mit dem Bass des Jenseits mitschwingst, wir wollen dich. Kommt zu uns ins Friedhofsstudio und lasst uns Musik machen, die die Toten erweckt! Bewirb dich jetzt, und lass die Braineater-Apokalypse beginnen!",
         "messageEN": "Zombies, unite! Braineater, the undead masters of metal, are resurrecting their lineup and need fresh corpses... erm, musicians! Whether you wield a guitar like a weapon, beat the drums like a reanimated heart, or resonate with the bass of the afterlife, we want you. Join us in the graveyard studio and let's make music that wakes the dead! Apply now, and let the Braineater apocalypse begin!",
         "style": ["brutal", "grind", "death"],
-        "instrument": ["guitar"],
-        "canton": "luzern",
+        "instrument": ["Gitarre"],
+        "canton": "Luzern",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -31,8 +31,8 @@
         "message": "Donnernde Beats für die Herrschaft des Skull Baron gesucht! Wir sind auf der Suche nach einem Schlagzeuger, der mit seinen unerbittlichen Rhythmen den Boden unter unserem Metal-Imperium zum Beben bringen kann. Wenn du die Fähigkeiten hast, das Schlagzeug mit Kraft und Präzision zu beherrschen, dann schließe dich unserem dunklen Kreuzzug an. Lass dein Schlagzeug zum Herzschlag von Skull Baron werden. Bewirb dich jetzt und marschiere zu den Kriegstrommeln des Untergangs!",
         "messageEN": "Thunderous beats needed to join the reign of Skull Baron! We are on the hunt for a drummer who can unleash relentless rhythms, making the ground shake beneath our metal empire. If you have the skills to command the kit with power and precision, join our dark crusade. Let your drums become the heartbeat of Skull Baron. Apply now and march to the war drums of doom!",
         "style": ["heavy", "epic", "doom"],
-        "instrument": ["drums"],
-        "canton": "zürich",
+        "instrument": ["Schlagzeug"],
+        "canton": "Zürich",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -40,8 +40,8 @@
         "message": "Erhebe deine Stimme in unheiligem Lobpreis mit Goat Worship! Wir sind auf der Suche nach einem Schrei-Sänger, der die Dämonen der Unterwelt mit gutturalem Gebrüll und ohrenbetäubenden Schreien beschwören kann. Wenn deine Stimmbänder in den Feuern der Hölle geschmiedet wurden, dann schließe dich unserer gotteslästerlichen Gemeinde an. Entfessele die Wut in dir und werde die Stimme von Goat Worship. Bewirb dich noch heute und lass das Klangritual beginnen!",
         "messageEN": "Raise your voice in unholy praise with Goat Worship! We're in search of a scream vocalist who can summon the demons of the underworld through guttural roars and ear-piercing shrieks. If your vocal cords are forged in the fires of hell, join our blasphemous congregation. Unleash the fury within and become the voice of Goat Worship. Apply today and let the sonic ritual begin!",
         "style": ["black", "doom"],
-        "instrument": ["vocals"],
-        "canton": "glarus",
+        "instrument": ["Gesang"],
+        "canton": "Glarus",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -49,8 +49,8 @@
         "message": "Schliesst euch der okkulten Resonanz von Goatish Reunion an! Wir brauchen einen Bassisten, der die tiefen Frequenzen heraufbeschwört, die die Grundfesten unseres musikalischen Treffens erschüttern werden. Wenn du düstere Grooves zaubern und mit der dunklen Energie unserer Reunion mitschwingen kannst, wollen wir dich. Lasst euch auf die okkulte Harmonie ein, werdet das Rückgrat von Goatish Reunion. Bewirb dich jetzt und lass die rituellen Basslines beginnen!",
         "messageEN": "Join the occult resonance of Goatish Reunion! We're in need of a bass-player to summon the low-end frequencies that will shake the very foundations of our musical gathering. If you can conjure sinister grooves and resonate with the dark energy of our reunion, we want you. Embrace the occult harmony, become the backbone of Goatish Reunion. Apply now and let the ritualistic basslines commence!",
         "style": ["black", "atmospheric", "occult", "ritual"],
-        "instrument": ["bass"],
-        "canton": "bern",
+        "instrument": ["Bass"],
+        "canton": "Bern",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -58,8 +58,8 @@
         "message": "Entfesselt euer akustisches Gemetzel mit Tales from the Slaughterhouse! Wir suchen einen fähigen Gitarristen, der sich unserer düsteren Erzählung anschließt. Wenn du eindringliche Melodien erschaffen und brutale Riffs spielen kannst, sind deine Saiten das fehlende Kapitel in unserer düsteren Geschichte. Werde Teil der Geschichte, werde der Orchestrator des Chaos. Bewirb dich jetzt und lass die Saga sich entfalten!",
         "messageEN": "Unleash your sonic carnage with Tales from the Slaughterhouse! We seek a skilled guitar player to join our dark narrative. If you can craft haunting melodies and unleash brutal riffs, your strings are the missing chapter in our sinister tale. Join the story, become the orchestrator of chaos. Apply now and let the saga unfold!",
         "style": ["death", "thrash"],
-        "instrument": ["guitar"],
-        "canton": "uri",
+        "instrument": ["Gitarre"],
+        "canton": "Uri",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -67,8 +67,8 @@
         "message": "Stürmt den Abgrund mit Satanic Skullsmasher! Wir sind auf der Suche nach einem unerbittlichen Schlagzeuger, der die infernalischen Beats beschwört, die die Grundfesten der Hölle erschüttern werden. Wenn euer Schlagzeugspiel dämonische Kräfte entfesseln kann, dann schließt euch unserem unheiligen Pakt an. Trommler des Abgrunds, bewerbt euch jetzt und lasst das Ritual der rhythmischen Verwüstung beginnen!",
         "messageEN": "Pound the abyss with Satanic Skullsmasher! We're in search of a relentless drummer to summon the infernal beats that will shake the very foundations of hell. If your drumming can unleash demonic forces, join our unholy pact. Drummers of the abyss, apply now and let the ritual of rhythmic devastation commence!",
         "style": ["black", "thrash"],
-        "instrument": ["drums"],
-        "canton": "nidwalden",
+        "instrument": ["Schlagzeug"],
+        "canton": "Nidwalden",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -76,8 +76,8 @@
         "message": "Betretet das Klanglabor von ZoMBieSiNDaHouSe! Wir suchen einen experimentierfreudigen Schlagzeuger, der industrielle Beats mit Untoten mischt. Wenn du gerne Grenzen überschreitest, das Chaos umarmst und musikalische Genres neu definieren willst, dann begib dich auf unsere experimentelle Odyssee. Bewirb dich jetzt und werde der Herzschlag der industriellen Apokalypse!",
         "messageEN": "Enter the sonic laboratory of ZoMBieSiNDaHouSe! We're seeking an experimental drummer to blend industrial beats with the undead. If you thrive on pushing boundaries, embrace the chaos, and want to redefine musical genres, join our experimental odyssey. Apply now and become the heartbeat of the industrial apocalypse!",
         "style": ["nu", "progressive", "industrial"],
-        "instrument": ["drums"],
-        "canton": "aargau",
+        "instrument": ["Schlagzeug"],
+        "canton": "Aargau",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -85,8 +85,8 @@
         "message": "Erhebe deine Stimme in den metallischen Himmel mit Steel Rose! Wir sind auf der Suche nach einem kraftvollen und vielseitigen Sänger, der unseren melodischen Ansturm anführt. Wenn ihr euch in die Höhen erheben und in die Tiefen eintauchen könnt, dann schließt euch unserer Symphonie aus Stahl an. Sängerinnen und Sänger, nehmt die Herausforderung an, bewerbt euch jetzt und lasst eure Stimme mit Steel Rose erblühen!",
         "messageEN": "Elevate your voice to the metallic heavens with Steel Rose! We're in search of a powerful and versatile singer to lead our melodic onslaught. If you can soar through highs and delve into the depths, join our symphony of steel. Singers, rise to the challenge, apply now and let your voice bloom with the Steel Rose!",
         "style": ["glam", "progressive"],
-        "instrument": ["vocals"],
-        "canton": "aargau",
+        "instrument": ["Gesang"],
+        "canton": "Aargau",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -94,8 +94,8 @@
         "message": "Schmiede donnernde Riffs mit Hammer Of Thor! Wir sind auf der Suche nach einem erfahrenen Gitarristen, der den musikalischen Hammer schwingt und den Sturm entfesselt. Wenn deine Saiten den Blitz beschwören können, dann schließe dich unserem metallischen Kreuzzug an. Gitarristen mit Kraft und Präzision, bewirb dich jetzt und lass die donnernde Reise beginnen!",
         "messageEN": "Forge thunderous riffs with Hammer Of Thor! We're on a quest for a skilled guitarist to wield the musical hammer and unleash the storm. If your strings can summon the lightning, join our metallic crusade. Guitarists of power and precision, apply now and let the thunderous journey begin!",
         "style": ["melodic", "death"],
-        "instrument": ["guitar"],
-        "canton": "aargau",
+        "instrument": ["Gitarre"],
+        "canton": "Aargau",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -103,8 +103,8 @@
         "message": "Beschreitet euren klanglichen Weg mit Blades and Bones! Wir suchen einen Gitarristen mit messerscharfen Fähigkeiten, der sich unserer dunklen Sinfonie anschließt. Wenn du Aggression mit Finesse verbinden kannst, dann werde der Maestro des Metal. Bewirb dich jetzt, und lass die Klingen deiner Saiten in den Knochen unseres Sounds widerhallen!",
         "messageEN": "Carve your sonic path with Blades and Bones! We seek a guitarist with razor-sharp skills to join our dark symphony. If you can blend aggression with finesse, become the maestro of metal. Apply now, and let the blades of your strings resonate in the bones of our sound!",
         "style": ["speed", "heavy", "old school"],
-        "instrument": ["guitar"],
-        "canton": "luzern",
+        "instrument": ["Gitarre"],
+        "canton": "Luzern",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -112,7 +112,7 @@
         "message": "Hackbrettspieler, umarmt das Absurde mit Absurdist! Schließen Sie sich unserem Avantgarde-Ensemble an, wo Dissonanz auf Harmonie trifft. Wenn Sie die Saiten des Chaos zupfen und sie zu einem musikalischen Gobelin verweben können, bewerben Sie sich jetzt. Umarme das Absurde, werde zum Provokateur des Hackbretts!",
         "messageEN": "Dulcimer players, embrace the absurdity with Absurdist! Join our avant-garde ensemble, where dissonance meets harmony. If you can pluck the strings of chaos and weave them into a musical tapestry, apply now. Embrace the absurd, become the dulcimer provocateur!",
         "style": ["sludge", "black", "jazz", "ambient"],
-        "instrument": ["dulcimer"],
+        "instrument": ["Hackbrett"],
         "canton": "solothurn",
         "email": "peter.huber@gmail.com"
     },
@@ -121,8 +121,8 @@
         "message": "Erwecke die Toten mit DJ Corpsegrinder! Wir suchen einen Sänger, der den untoten Beats und den eindringlichen Melodien Leben einhaucht. Wenn eure Stimme den Tanz der Verdammten anführen kann, schließt euch unserer makabren Party an. Sängerinnen und Sänger der Nacht, bewerbt euch jetzt und lasst die Tanzfläche der Leichen lebendig werden!",
         "messageEN": "Raise the dead with DJ Corpsegrinder! We're seeking a singer to bring life to the undead beats and haunting melodies. If your voice can lead the dance of the damned, join our macabre party. Singers of the night, apply now and let the corpse dance floor come alive!",
         "style": ["grindcore", "experimental", "drum and bass"],
-        "instrument": ["vocalist"],
-        "canton": "basel-stadt",
+        "instrument": ["Gesang"],
+        "canton": "Basel-Stadt",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -130,8 +130,8 @@
         "message": "Stürzt euch mit Melodies of Evil in den Abgrund! Wir suchen einen Bassisten und einen Keyboard-Maestro, die sich unserer unheiligen Allianz anschließen wollen. Wenn ihr düstere Basslinien beschwören oder eindringliche Melodien weben könnt, bewerbt euch jetzt. Bassisten und Keyboarder, lasst die bösartige Sinfonie erklingen!",
         "messageEN": "Dive into the abyss with Melodies of Evil! We're searching for a bass player and a keyboard maestro to join our unholy alliance. If you can summon sinister basslines or weave haunting melodies, apply now. Bassists and keyboardists, let the malevolent symphony unfold!",
         "style": ["symphonic", "black"],
-        "instrument": ["bass", "keyboard"],
-        "canton": "zürich",
+        "instrument": ["Bass", "Keyboard"],
+        "canton": "Zürich",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -139,7 +139,7 @@
         "message": "Groove durch den Kosmos mit Frankie Fisherman and the Earthly Sinners! Wir suchen einen jazzig angehauchten Pianisten, der unsere Stoner-Jams aufpeppt. Wenn du kosmische Melodien mit erdigen Vibes verbinden kannst, bewirb dich jetzt. Jazzpianisten, schließt euch unserer psychedelischen Reise an und lasst eure Finger von den kosmischen Wellen leiten!",
         "messageEN": "Groove through the cosmos with Frankie Fisherman and the Earthly Sinners! We're looking for a jazz-minded piano player to elevate our stoner jams. If you can infuse cosmic melodies with earthy vibes, apply now. Jazz pianists, join our psychedelic journey and let the cosmic waves guide your fingers!",
         "style": ["stoner", "doom", "jazz"],
-        "instrument": ["piano"],
+        "instrument": ["E-Piano"],
         "canton": "st gallen",
         "email": "peter.huber@gmail.com"
     },
@@ -148,8 +148,8 @@
         "message": "Umarme das melodische Chaos mit Melodic Misfits! Wir sind auf der Suche nach einem fähigen Gitarristen für unser vielseitiges Ensemble. Wenn du dich in verschiedenen Genres zurechtfindest und dabei einen melodischen Kern beibehältst, bewirb dich jetzt. Gitarristen des Ungewöhnlichen, lasst die Misfit-Melodien erklingen!",
         "messageEN": "Embrace the melodic chaos with Melodic Misfits! We're on the lookout for a skilled guitarist to join our eclectic ensemble. If you can navigate through diverse genres while maintaining a melodic core, apply now. Guitarists of the unusual, let the misfit melodies resonate!",
         "style": ["djent", "noise", "technical", "death"],
-        "instrument": ["guitar"],
-        "canton": "basel-stadt",
+        "instrument": ["Gitarre"],
+        "canton": "Basel-Stadt",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -157,8 +157,8 @@
         "message": "Beschwöre rhythmische Zaubersprüche mit Abracadaver! Wir sind auf der Suche nach einem Schlagzeuger, der die Magie in unsere Klangbeschwörungen bringt. Wenn eure Beats verzaubern können, schließt euch unserer mystischen Reise an. Trommler des Arkanen, bewerbt euch jetzt und lasst den magischen Rhythmus sich entfalten!",
         "messageEN": "Conjure rhythmical spells with Abracadaver! We're in search of a drummer to bring the magic to our sonic incantations. If your beats can weave enchantment, join our mystical journey. Drummers of the arcane, apply now and let the magical rhythm unfold!",
         "style": ["black", "death"],
-        "instrument": ["drum"],
-        "canton": "bern",
+        "instrument": ["Schlagzeug"],
+        "canton": "Bern",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -166,8 +166,8 @@
         "message": "Steige mit Distortions from the Abyss in den klanglichen Abgrund hinab! Wir suchen einen Synthesizer-Zauberer, der jenseitige Klangwelten erschafft. Wenn du elektronische Gefilde manipulieren und in den Abgrund der Verzerrung eintauchen kannst, dann schließe dich unserer klanglichen Expedition an. Bewirb dich jetzt und lass uns von den Verzerrungen des Abgrunds einhüllen!",
         "messageEN": "Descend into sonic abyss with Distortions from the Abyss! We're seeking a synthesizer sorcerer to craft otherworldly soundscapes. If you can manipulate electronic realms and dive into the abyss of distortion, join our sonic expedition. Apply now and let the distortions from the abyss envelop us!",
         "style": ["post", "atmospheric"],
-        "instrument": ["synthesizer"],
-        "canton": "freiburg",
+        "instrument": ["Synthesizer"],
+        "canton": "Freiburg",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -175,8 +175,8 @@
         "message": "Schließt euch dem Klangangriff mit Rhythms of Annihilation an! Wir sind auf der Suche nach einem fähigen Gitarristen, der unser Groove-Metal-Chaos anheizt. Wenn ihr kraftvolle Riffs und synkopische Rhythmen spielen könnt, dann schließt euch unserem rhythmischen Ansturm an. Gitarristen des Grooves, bewerbt euch jetzt und werdet Teil der vernichtenden Kadenz!",
         "messageEN": "Join the sonic assault with Rhythms of Annihilation! We're on the hunt for a skilled guitarist to elevate our groove metal mayhem. If you can unleash powerful riffs and syncopated rhythms, join our rhythmic onslaught. Guitarists of groove, apply now and become a part of the annihilating cadence!",
         "style": ["thrash", "groove"],
-        "instrument": ["guitar"],
-        "canton": "basel-land",
+        "instrument": ["Gitarre"],
+        "canton": "Basel-Land",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -184,8 +184,8 @@
         "message": "Beschwört das Chaos mit No God Confirmed! Wir suchen einen experimentellen Schlagzeuger für unsere schwarzmetallische Odyssee. Wenn du dich in den unerforschten Gefilden des Black Metal mit einfallsreichen Beats und intensiven Blastbeats bewegen kannst, dann schließe dich unseren klanglichen Experimenten an. Trommler des Abgrunds, bewerbt euch jetzt und lasst das Experimentieren beginnen!",
         "messageEN": "Summon chaos with No God Confirmed! We seek an experimental drummer to join our blackened odyssey. If you can navigate the uncharted realms of black metal with inventive beats and intense blast beats, join our sonic experimentation. Drummers of the abyss, apply now and let the experimentation begin!",
         "style": ["post", "black", "experimental"],
-        "instrument": ["drums"],
-        "canton": "luzern",
+        "instrument": ["Schlagzeug"],
+        "canton": "Luzern",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -193,8 +193,8 @@
         "message": "Marschiert in den Ruhm mit Brothers of Metal! Wir sind auf der Suche nach einem Bassisten, der unsere Manowar-inspirierten Klangschlachten anführt. Wenn ihr die Kraft und Macht der ursprünglichen Kings of Metal verkörpern könnt, schließt euch unserer Bruderschaft an. Bassisten des Metals, bewerbt euch jetzt und lasst die epischen Cover erklingen!",
         "messageEN": "March into glory with Brothers of Metal! We're in search of a bass player to anchor our Manowar-inspired sonic battles. If you can channel the power and might of the original Kings of Metal, join our brotherhood. Bassists of metal, apply now and let the epic covers resound!",
         "style": ["true", "power", "cover"],
-        "instrument": ["bass"],
-        "canton": "luzern",
+        "instrument": ["Bass"],
+        "canton": "Luzern",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -202,8 +202,8 @@
         "message": "Tauche mit Clark Djent in die technischen Abgründe ein! Wir brauchen einen fähigen Gitarristen, der komplexe Muster entschlüsselt und den Djent-Wahnsinn entfesselt. Wenn ihr euch in den progressiven Landschaften des Tech-Death-Djent zurechtfindet, dann schließt euch unserer klanglichen Reise an. Gitarristen mit Präzision und Technik, bewerbt euch jetzt und lasst die Djent-Erkundung beginnen!",
         "messageEN": "Dive into the technical abyss with Clark Djent! We're in need of a skilled guitarist to unravel complex patterns and unleash djent madness. If you can navigate the progressive landscapes of tech death djent, join our sonic journey. Guitarists of precision and technique, apply now and let the djent exploration commence!",
         "style": ["djent", "tech"],
-        "instrument": ["guitar"],
-        "canton": "zürich",
+        "instrument": ["Gitarre"],
+        "canton": "Zürich",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -211,8 +211,8 @@
         "message": "Verliere dich im Dunst mit Spliffhanger! Wir sind auf der Suche nach einem Gitarristen, der sich unserer Stoner-lastigen Klangreise anschließt. Wenn du fuzzige Riffs weben, psychedelische Gefilde erkunden und den Groove fließen lassen kannst, dann mach mit bei unserer entspannten Expedition. Gitarristen mit einem dunstigen Vibe, bewerbt euch jetzt und lasst die Stoner-Saga sich entfalten!",
         "messageEN": "Get lost in the haze with Spliffhanger! We're on the lookout for a guitarist to join our stoner-infused sonic journey. If you can weave fuzzy riffs, explore psychedelic realms, and let the groove flow, join our laid-back expedition. Guitarists of the hazy vibe, apply now and let the stoner saga unfold!",
         "style": ["stoner"],
-        "instrument": ["guitar"],
-        "canton": "zürich",
+        "instrument": ["Gitarre"],
+        "canton": "Zürich",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -220,8 +220,8 @@
         "message": "Stürzt euch mit Dying Corpses in die Tiefen der Dunkelheit! Wir sind auf der Suche nach einem fähigen Gitarristen, der sich unserer Death-Doom-Expedition anschließt. Wenn ihr zermalmende Riffs und schwermütige Melodien hervorbringen und in die Abgründe des Death Doom eintauchen könnt, dann schließt euch unserer düsteren Reise an. Gitarristen der Verzweiflung, bewerbt euch jetzt und lasst die Leichen steigen!",
         "messageEN": "Plunge into the depths of darkness with Dying Corpses! We're in search of a skilled guitarist to join our death doom expedition. If you can summon crushing riffs, mournful melodies, and dive into the abyss of death doom, join our morose journey. Guitarists of despair, apply now and let the corpses rise!",
         "style": ["doom", "death"],
-        "instrument": ["guitar"],
-        "canton": "zürich",
+        "instrument": ["Gitarre"],
+        "canton": "Zürich",
         "email": "peter.huber@gmail.com"
     },
     {
@@ -229,8 +229,71 @@
         "message": "Entfacht die Flammen der Macht mit Burning Dragons of Eternal Fire! Wir suchen einen Bassisten, der unsere epische Power-Metal-Symphonie mit donnernder Tiefe bereichert. Wenn du die tiefen Töne wie eine mythische Waffe schwingen kannst und dich dem Streben nach Ruhm anschließt, dann schließe dich unserer majestätischen Reise an. Bassisten der Macht, bewerbt euch jetzt und lasst das ewige Feuer hell brennen!",
         "messageEN": "Ignite the flames of power with Burning Dragons of Eternal Fire! We're seeking a bass player to add thunderous depth to our epic power metal symphony. If you can wield the low-end like a mythical weapon and join the quest for glory, join our majestic journey. Bassists of power, apply now and let the eternal fire burn bright!",
         "style": ["epic", "power"],
-        "instrument": ["bass"],
-        "canton": "thurgau",
+        "instrument": ["Bass"],
+        "canton": "Thurgau",
+        "email": "peter.huber@gmail.com"
+    },
+    {
+        "name": "Dogs of Hate",
+        "message": "Entfessle deine Wildheit mit Dogs of Hate! Wir sind auf der Suche nach einem unerbittlichen Schlagzeuger, der sich unserem brutalen Death Metal-Angriff anschließt. Wenn ihr Blastbeats hervorbringen könnt, die Knochen zerschmettern, und Rhythmen, die pulverisieren, dann schließt euch unserem Rudel unerbittlicher Aggression an. Trommler des Chaos, bewerbt euch jetzt und lasst den Hass fließen!",
+        "messageEN": "Unleash your ferocity with Dogs of Hate! We're on the hunt for a relentless drummer to join our brutal death metal onslaught. If you can summon blast beats that shatter bone and rhythms that pulverize, join our pack of relentless aggression. Drummers of chaos, apply now and let the hate flow!",
+        "style": ["brutal", "death"],
+        "instrument": ["Schlagzeug"],
+        "canton": "Appenzell Innerhoden",
+        "email": "peter.huber@gmail.com"
+    },
+    {
+        "name": "Beast Cancer",
+        "message": "Schließt euch der dunklen Symphonie von Beast Cancer an! Wir sind auf der Suche nach einem Bassisten, der unseren Death-Metal-Ansturm unterstützt. Wenn du erderschütternde Basslinien beschwören kannst, die in den Tiefen der Verzweiflung mitschwingen, dann schließe dich unserem klanglichen Kreuzzug an. Bassisten der Finsternis, bewerbt euch jetzt und lasst die Bestie in euch brüllen!",
+        "messageEN": "Join the dark symphony of Beast Cancer! We're in search of a bass player to anchor our death metal onslaught. If you can summon earth-shattering basslines that resonate with the depths of despair, join our sonic crusade. Bassists of darkness, apply now and let the beast within roar!",
+        "style": ["death"],
+        "instrument": ["Bass"],
+        "canton": "Nidwalden",
+        "email": "peter.huber@gmail.com"
+    },
+    {
+        "name": "The Happy Hippie Hippos",
+        "message": "Umarme das Okkulte mit The Happy Hippie Hippos! Wir beschwören doomige Melodien und mystische Beschwörungen. Wenn ihr die dunkle Energie des Kosmos kanalisieren könnt und euch unserer psychedelischen Reise in den Abgrund anschließen wollt, bewerbt euch jetzt. Okkultisten der Klangwelten, lasst den Hippie Doom transzendieren!",
+        "messageEN": "Embrace the occult with The Happy Hippie Hippos! We're summoning doom-laden melodies and mystical incantations. If you can channel the dark energy of the cosmos and join our psychedelic journey into the abyss, apply now. Occultists of the sonic realms, let the hippie doom transcend!",
+        "style": ["occult", "doom"],
+        "instrument": ["Klangschale", "Gitarre"],
+        "canton": "Jura",
+        "email": "peter.huber@gmail.com"
+    },     
+    {
+        "name": "Rypeli",
+        "message": "Rock die Bühne mit Rypeli! Wir sind auf der Suche nach einem dynamischen Sänger, der unsere Rock'n'Roll-Rebellion anführt. Wenn du die Menge mit deiner Stimme beherrschst, Leidenschaft in unsere Hymnen einfließen lässt und die Stimme unserer Generation wirst, dann mach mit bei unserer musikalischen Revolution. Sängerinnen und Sänger des Rock, bewerbt euch jetzt und lasst das Rypeli brüllen!",
+        "messageEN": "Rock the stage with Rypeli! We're searching for a dynamic singer to lead our rock 'n' roll rebellion. If you can command the crowd with your voice, infuse passion into our anthems, and become the voice of our generation, join our musical revolution. Singers of rock, apply now and let the Rypeli roar!",
+        "style": ["death", "rock", "groove"],
+        "instrument": ["Gesang"],
+        "canton": "Zug",
+        "email": "peter.huber@gmail.com"
+    },
+    {
+        "name": "Pink Slip",
+        "message": "Bist du bereit, die Bühne mit Pink Slip zu rocken? Wir sind auf der Suche nach einem dynamischen Schlagzeuger, der unsere Glam-Punk-Revolution unterstützt. Wenn du den Beat halten kannst und gleichzeitig deinen eigenen Flair in unseren energiegeladenen Sound einbringst, könntest du das fehlende Teil in unserem musikalischen Puzzle sein. Schlagzeuger mit Haltung und Stil, bewerbt euch jetzt und lasst uns gemeinsam Lärm machen!",
+        "messageEN": "Ready to rock the stage with Pink Slip? We're on the lookout for a dynamic drummer to join our glam punk revolution. If you can keep the beat while bringing your own flair to our energetic sound, you could be the missing piece to our musical puzzle. Drummers of attitude and style, apply now and let's make some noise together!",
+        "style": ["glam", "punk"],
+        "instrument": ["Schlagzeug"],
+        "canton": "Tessin",
+        "email": "peter.huber@gmail.com"
+    },
+    {
+        "name": "Weird Sisters",
+        "message": "Beschwört das Arkane mit den Weird Sisters! Wir sind auf der Suche nach einem magischen Dudelsack- und Lautenspieler, der unsere okkulten Rockmelodien verzaubert. Wenn ihr die mystischen Energien der Zaubererwelt kanalisieren und euer eigenes magisches Flair in unsere Klangrituale einbringen könnt, schließt euch unserem Hexenzirkel an. Musiker des Mystischen, bewerbt euch jetzt und lasst den Zauber der Musik ineinanderfließen!",
+        "messageEN": "Summon the arcane with the Weird Sisters! We're in search of a magical bagpipe and lute player to weave enchantment into our occult rock melodies. If you can channel the mystical energies of the wizarding world and bring your own magical flair to our sonic rituals, join our coven. Musicians of the mystical, apply now and let the spells of music intertwine!",
+        "style": ["occult", "alternative", "rock"],
+        "instrument": ["Bagpipe", "Laute"],
+        "canton": "Solothurn",
+        "email": "peter.huber@gmail.com"
+    },
+    {
+        "name": "Sadgasm",
+        "message": "Taucht ein in die Melancholie mit Sadgasm! Wir sind auf der Suche nach einem Bassisten, der unsere Grunge-lastige Klangreise unterstützt. Wenn du die rohen Emotionen der Grunge-Szene der 90er Jahre kanalisieren und unseren ängstlichen Hymnen Tiefe verleihen kannst, dann begleite unsere Reise in die Tiefen der Traurigkeit. Bassisten des Soulful, bewerbt euch jetzt und lasst die Traurigkeit erklingen!",
+        "messageEN": "Dive into the melancholy with Sadgasm! We're seeking a bass player to anchor our grunge-fueled sonic voyage. If you can channel the raw emotion of the '90s grunge scene and add depth to our angsty anthems, join our journey into the depths of sadness. Bassists of the soulful, apply now and let the sadness resonate!",
+        "style": ["grunge"],
+        "instrument": ["Bass"],
+        "canton": "Zürich",
         "email": "peter.huber@gmail.com"
     }
 ]

@@ -3,6 +3,7 @@ const Ad = require("./../models/adModel")
 const APIFeatures = require("./../utils/apiFeatures")
 
 // code and email needs to be sent in request body
+// Todo: set secretKey in config.env
 exports.createToken = (req, res) => {
     // verify code & e-mail - see if match
 
@@ -13,6 +14,7 @@ exports.createToken = (req, res) => {
         email: "franz.huber@gmail.com",
     };
     jwt.sign({advert: advert}, "secretkey", {expiresIn: "3h"}, (err, token) => {
+        // cookie setzen
         res.json({
             token: token
         });
@@ -56,6 +58,9 @@ exports.getAllAds = async (req, res) => {
     try {
         // Execute a very long Query like: query.sort().select().skip().limit()...
         // create instance of APIFeatures, call each method which returns "this"
+        const featuresWithoutPaginate = new APIFeatures(Ad.find(), req.query).filter().sort().limitFields();
+        const lengthWithoutPaginate = (await featuresWithoutPaginate.query).length;
+
         const features = new APIFeatures(Ad.find(), req.query).filter().sort().limitFields().paginate();
         const ads = await features.query;
 
@@ -63,7 +68,8 @@ exports.getAllAds = async (req, res) => {
             status: "success",
             results: ads.length,
             data: {
-                ads
+                ads,
+                lengthWithoutPaginate
             }
         })
     } catch (err) {
