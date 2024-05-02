@@ -7,6 +7,7 @@ class APIFeatures {
 
     filter() {
         // filtering
+        // req.query === queryString === (formatiert: { canton: 'Luzern', limit: '10', page: '1' })
         // copy of the query object to exclude fields in filtering: destructuring + new object
         const queryObj = {...this.queryString };
         // exclude fields
@@ -15,8 +16,14 @@ class APIFeatures {
 
         // advanced filtering
         let queryStr = JSON.stringify(queryObj);
+        // console.log(queryStr); -> in JSON-strings {"canton":"Luzern"} without pagination
         // replace operators from query gte to $gte with RegEX, matches if it is this exact word, not word containing "lt"
         queryStr = queryStr.replace(/\b(gte|gt|lte|lt|all)\b/g, match => `$${match}`);
+        // console.log(queryStr); -> in JSON-strings {"canton":"Luzern"} without pagination
+
+        // Filter Arrays
+        // filter for Arrays like this (asks if it contains this value) document.find({ instrument: 'Gitarre'})
+
 
         // find-method returns query - makes chaining possible
         // const query = Ad.find().where("canton").equals("Basel-Stadt").where("145765");
@@ -24,6 +31,8 @@ class APIFeatures {
         // save query, chain it, and just at the and execute it with await
         // chaining find() a second time here
         this.query = this.query.find(JSON.parse(queryStr))
+        //console.log(queryStr);
+        
         
         return this;
     }
@@ -37,7 +46,6 @@ class APIFeatures {
         } else {
             this.query = this.query.sort("-createdAt");
         }
-
         return this;
     }
     
@@ -51,7 +59,6 @@ class APIFeatures {
             // exclude "-__v"
             this.query = this.query.select("-__v")
         }
-        console.log(this);
         return this;
     }
 
@@ -62,8 +69,7 @@ class APIFeatures {
         const skip = (page - 1) * limit;
 
         // example: page=2&limit=10
-        this.query = this.query.skip(skip).limit(limit)
-
+        this.query = this.query.skip(skip).limit(limit);
         return this;
     }
 }
