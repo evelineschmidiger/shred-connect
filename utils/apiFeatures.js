@@ -10,16 +10,24 @@ class APIFeatures {
         // req.query === queryString === (formatiert: { canton: 'Luzern', limit: '10', page: '1' })
         // copy of the query object to exclude fields in filtering: destructuring + new object
         const queryObj = {...this.queryString };
+        
         // exclude fields
         const excludedFields = ["page", "sort", "limit", "fields"];
         excludedFields.forEach(el => delete queryObj[el])
+
+        // if instrument === "Andere" - modify query object, so that the main instruments are excluded
+        if (queryObj.instrument === "Andere") {
+            queryObj.instrument = { nin: [ "Gitarre", "Bass", "Schlagzeug", "Gesang" ] }
+        }
 
         // advanced filtering
         let queryStr = JSON.stringify(queryObj);
         // console.log(queryStr); -> in JSON-strings {"canton":"Luzern"} without pagination
         // replace operators from query gte to $gte with RegEX, matches if it is this exact word, not word containing "lt"
-        queryStr = queryStr.replace(/\b(gte|gt|lte|lt|all)\b/g, match => `$${match}`);
+        queryStr = queryStr.replace(/\b(gte|gt|lte|lt|all|nin)\b/g, match => `$${match}`);
         // console.log(queryStr); -> in JSON-strings {"canton":"Luzern"} without pagination
+
+        
 
         // Filter Arrays
         // filter for Arrays like this (asks if it contains this value) document.find({ instrument: 'Gitarre'})
