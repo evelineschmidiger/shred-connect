@@ -56,9 +56,7 @@ exports.verifyToken = (req, res, next) => {
 
 exports.getAllAds = async (req, res) => {
     try {
-        console.log(req.query);
 
-        if (req.query.instrument === "Andere") console.log("Andere");
         // Execute a very long Query like: query.sort().select().skip().limit()...
         // create instance of APIFeatures, call each method which returns "this"
         const featuresWithoutPaginate = new APIFeatures(Ad.find(), req.query).filter().sort().limitFields();

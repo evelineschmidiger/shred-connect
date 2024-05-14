@@ -40,6 +40,10 @@ const adSchema = new mongoose.Schema({
         required: [true, "An ad must have an email-address"],
         select: false
     },
+    image: {
+        type: String,
+        trim: true,
+    },
     createdAt: {
         type: Date,
         default: Date.now,
