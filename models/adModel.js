@@ -42,6 +42,7 @@ const adSchema = new mongoose.Schema({
     },
     image: {
         type: String,
+        default: "choice_03",
         trim: true,
     },
     createdAt: {
