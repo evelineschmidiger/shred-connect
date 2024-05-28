@@ -4,6 +4,8 @@ const adSchema = new mongoose.Schema({
     name: {
         type: String,
         trim: true,
+/*         unique: true,
+        index: true, */
         required: [true, "An ad must have a name"],
     },
     message: {
@@ -30,9 +32,9 @@ const adSchema = new mongoose.Schema({
     code: {
         type: String,
         required: false,
-        // select: false -> not returned in projection
-        select: false
-        // unique: true
+        select: false, //-> not returned in projection
+        select: false,
+        unique: true,
     },
     email: {
         type: String,

@@ -1,6 +1,7 @@
 const jwt = require("jsonwebtoken");
 const Ad = require("./../models/adModel")
 const APIFeatures = require("./../utils/apiFeatures")
+const sendEmail = require("./../utils/email")
 
 // code and email needs to be sent in request body
 // Todo: set secretKey in config.env
@@ -116,6 +117,26 @@ exports.createAd = async (req, res) => {
         })
     }
 } 
+exports.sendCodeEmail = async (req, res) => {
+    console.log(req.body);
+    try {
+        await sendEmail({
+            email: req.body.email,
+            subject: "Dein Inserate Code",
+            message: `Dein Code: ${req.body.code}`
+        })
+        res.status(200).json({
+            status: "success",
+            message: "Code sent to email",
+        })
+    } catch(err) {
+        res.status(400).json({
+            status: "fail",
+            message: err
+        })
+    }
+
+}
 exports.updateAd = async (req, res) => {
     try {
         newReqBody = {...req.body};

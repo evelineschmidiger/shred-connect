@@ -22,6 +22,7 @@ app.use(cors({origin: 'http://localhost:5173', credentials: true, exposedHeaders
 
 // Middleware - ads body data to request object
 app.use(express.json());
+
 // Serves static files 127.0.0.1:7777/index.html
 app.use(express.static(`${__dirname}/public`));
 

@@ -18,6 +18,10 @@ router
     .delete(adController.deleteAd);
 
 router
+    .route("/sendCode")
+    .post(adController.sendCodeEmail);
+
+router
     .route("/token")
     .post(adController.createToken)
 
