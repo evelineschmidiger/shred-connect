@@ -16,6 +16,9 @@ router
     .patch(adController.updateAd)
     // with auth: .delete(adController.setToken, adController.verifyToken, adController.deleteAd);
     .delete(adController.deleteAd);
+router
+    .route("/:id/contact")
+    .post(adController.sendContactEmail)
 
 router
     .route("/sendCode")
