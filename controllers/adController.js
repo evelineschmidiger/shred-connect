@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const Ad = require("./../models/adModel")
 const APIFeatures = require("./../utils/apiFeatures")
-const sendEmail = require("./../utils/email")
+
 
 // code and email needs to be sent in request body
 // Todo: set secretKey in config.env
@@ -99,7 +99,6 @@ exports.getAd = async (req, res) => {
         })
     }
 }
-
 exports.createAd = async (req, res) => {
     try {
         // const newAd = new Ad({})
@@ -118,7 +117,6 @@ exports.createAd = async (req, res) => {
         })
     }
 } 
-
 exports.updateAd = async (req, res) => {
     try {
         newReqBody = {...req.body};
@@ -157,47 +155,5 @@ exports.deleteAd = async (req, res) => {
         })
     }
 }
-exports.sendCodeEmail = async (req, res) => {
-    console.log(req.body);
-    try {
-        await sendEmail({
-            email: req.body.email,
-            subject: "Dein Inserate Code",
-            message: `Dein Code: ${req.body.code}`
-        })
-        res.status(200).json({
-            status: "success",
-            message: "Code sent to email",
-        })
-    } catch(err) {
-        res.status(400).json({
-            status: "fail",
-            message: err
-        })
-    }
 
-}
-exports.sendContactEmail = async (req, res) => {
 
-    // Get E-Mailadress from ad - is not sent via normal get request because in schema "select" is set to false
-    try {
-        const ad = await Ad.findById(req.body.adId).select("-name -message -style -instrument -image -canton -createdAt -lastUpdatedAt +email");
-        const email = ad.email;
-
-        await sendEmail({
-        email,
-        subject: `Du wurdest kontaktiert von ${req.body.formName}`,
-        message: req.body.formMessage,
-        })
-        res.status(200).json({
-            status: "success",
-            message: "Contact Email sent",
-        })
-
-    } catch (err) {
-        res.status(404).json({
-            status: "fail",
-            message: err
-        })
-    }
-}

@@ -1,0 +1,11 @@
+extends baseEmail
+
+block content  
+    h2 #{contactName} hat dich kontaktiert! Hier ist die Nachricht: 
+    
+    p #{contactMessage}
+    br
+    
+    p Du kannst #{contactName} auf diese Email-Adresse antworten: #{contactEmail}
+    
+

@@ -1,0 +1,9 @@
+extends baseEmail
+
+block content  
+    p Vielen Dank, dass du dein Inserat bei Shred-Connect erstellt hast. 
+    p Mit dem folgenden Inserate-Code kannst du dein Inserat jederzeit ändern oder löschen:
+                    h1 #{code}
+                    
+    p Bei Fragen, kannst du dich an info@shred-connect.ch wenden.
+    a(href=`${url}`, target='_blank') Inserat ändern

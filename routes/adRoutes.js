@@ -1,5 +1,6 @@
 const express = require("express");
 const adController = require("./../controllers/adController")
+const emailController = require("./../controllers/emailController")
 const router = express.Router();
 
 
@@ -18,11 +19,11 @@ router
     .delete(adController.deleteAd);
 router
     .route("/:id/contact")
-    .post(adController.sendContactEmail)
+    .post(emailController.sendContactEmail)
 
 router
     .route("/sendCode")
-    .post(adController.sendCodeEmail);
+    .post(emailController.sendCodeEmail);
 
 router
     .route("/token")

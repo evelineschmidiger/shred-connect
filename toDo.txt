@@ -18,10 +18,6 @@ FUNCTIONALITY
 - Wenn jemand inserate Code vergessen hat? - Support-Formular? - E-Mail-Adresse bestätigen?
 - (How to count the views?)
 
-AUTHENTIFICATION
-- Finish Authentification logic - do it later!
-- FrontEnd: Save Auth Token in local Storage (not cookies)
-save secret key somewhere and use it
 
 E-MAIL
 - create E-mails with Nodemailer - when ad created, updated, deleted, code forgotten, answer received
@@ -29,13 +25,6 @@ E-MAIL
 REACT
 - use immutable.js if I have to make a lot of copies to change states
 - create a component tree - basic structure for react
-
-FRONTEND
-- (Image upload - check content?) -> use choice of pictograms/emojis instead - create image out of it
-- Ant Design (package, react-basis) - Vorgestaltete Buttons etc anstelle von Tailwind (React UI)
-- Tailwind: Kostet sobald ich komponenten brauche
-- Tailwind UI, Tailwind CSS
-- React Bootstrap - gut für mvp minimal viable product - nicht richtig wenns schön sein muss
 
 DEPLOYMENT
 - Render.com for Deployment - guter Nachfolger von Heroku

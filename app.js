@@ -1,3 +1,4 @@
+const path = require ("path");
 const express = require("express");
 const dotenv = require("dotenv");
 dotenv.config({path: "./config.env"}) // process.env.NODE-ENV === "development"
@@ -17,14 +18,22 @@ mongoose.connect(DB, {
 
 const app = express();
 
+// NECESSARY??
+// define view engine to use pug -templates
+/* app.set("view engine", "pug");
+// require "path" (not installed, just usable)
+app.set("views", path.join(__dirname, "views")) */
+
+// Serves static files 127.0.0.1:7777/index.html
+app.use(express.static(path.join(__dirname, "public")));
+
 app.use(cors({origin: 'http://localhost:5173', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
 
 
 // Middleware - ads body data to request object
 app.use(express.json());
 
-// Serves static files 127.0.0.1:7777/index.html
-app.use(express.static(`${__dirname}/public`));
+
 
 // Example Middleware - NOT necessary
 // Route not specified - applied to every request 
