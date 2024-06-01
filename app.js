@@ -6,6 +6,7 @@ const mongoose = require("mongoose");
 const adRouter = require("./routes/adRoutes");
 const cors = require("cors");
 
+
 // Connect to DB
 const DB = process.env.DATABASE.replace("<PASSWORD>", process.env.DATABASE_PASSWORD)
 mongoose.connect(DB, {
@@ -18,15 +19,11 @@ mongoose.connect(DB, {
 
 const app = express();
 
-// NECESSARY??
-// define view engine to use pug -templates
-/* app.set("view engine", "pug");
-// require "path" (not installed, just usable)
-app.set("views", path.join(__dirname, "views")) */
 
 // Serves static files 127.0.0.1:7777/index.html
 app.use(express.static(path.join(__dirname, "public")));
 
+//app.use(cors({origin: 'http://localhost:5173', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
 app.use(cors({origin: 'http://localhost:5173', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
 
 
@@ -50,6 +47,23 @@ app.use("/api/adverts", adRouter);
 
 // Server
 const port = process.env.PORT || 7777;
-app.listen(port, () => {
+const server = app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
+
+// socket.io
+const io = require("socket.io")(server, {
+    cors: { origin: 'http://localhost:5173'}
+});
+
+io.on("connection", (socket) => {
+    console.log("socket connected");
+
+    socket.on("created", (ad) => {
+        io.emit("created", ad);
+    })
+    socket.on("updated", (ad) => {
+        io.emit("updated", ad);
+    })
+
+})
