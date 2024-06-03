@@ -1,59 +1,7 @@
-const jwt = require("jsonwebtoken");
 const Ad = require("./../models/adModel")
 const APIFeatures = require("./../utils/apiFeatures")
 
 
-// code and email needs to be sent in request body
-// Todo: set secretKey in config.env
-exports.createToken = (req, res) => {
-    // verify code & e-mail - see if match
-
-    // payload: 
-    const advert = {
-        id: 4,
-        code: "083628",
-        email: "franz.huber@gmail.com",
-    };
-    jwt.sign({advert: advert}, "secretkey", {expiresIn: "3h"}, (err, token) => {
-        // cookie setzen
-        res.json({
-            token: token
-        });
-    });
-}
-// verify Token - Format of Token: Bearer
-// Authorization: Bearer <access_token>
-exports.setToken = (req, res, next) => {
-    // Get auth header value
-    const bearerHeader = req.headers["authorization"];
-    // Check if bearer is undefined
-    if (typeof bearerHeader !== "undefined") {
-        // Split at the Space
-        // .split(): turns string into an array (here by space)
-        const bearer = bearerHeader.split(" ");
-        // Get token from array
-        const bearerToken = bearer[1];
-        // Set the token
-        req.token = bearerToken;
-        // Next middleware
-        next();
-
-    } else {
-        // Forbidden
-        res.sendStatus(403);
-    }
-
-}
-
-exports.verifyToken = (req, res, next) => {
-    jwt.verify(req.token, "secretkey", (err, authData) => {
-        if (err) {
-            res.sendStatus(403);
-        } else {
-            next();
-        }
-    });
-}
 
 exports.getAllAds = async (req, res) => {
     try {

@@ -27,11 +27,9 @@ class APIFeatures {
         queryStr = queryStr.replace(/\b(gte|gt|lte|lt|all|nin)\b/g, match => `$${match}`);
         // console.log(queryStr); -> in JSON-strings {"canton":"Luzern"} without pagination
 
-        
 
         // Filter Arrays
         // filter for Arrays like this (asks if it contains this value) document.find({ instrument: 'Gitarre'})
-
 
         // find-method returns query - makes chaining possible
         // const query = Ad.find().where("canton").equals("Basel-Stadt").where("145765");
@@ -39,9 +37,7 @@ class APIFeatures {
         // save query, chain it, and just at the and execute it with await
         // chaining find() a second time here
         this.query = this.query.find(JSON.parse(queryStr))
-        //console.log(queryStr);
-        
-        
+          
         return this;
     }
 

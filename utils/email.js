@@ -3,8 +3,6 @@ const pug = require("pug");
 const { convert } = require("html-to-text");
 
 
-// using sendWelcome method of the class:
-// new Email(user, url).sendWelcome();
 
 module.exports = class Email {
     constructor(data) {
@@ -68,7 +66,7 @@ module.exports = class Email {
     async sendCode() {
         await this.send("sendCode", "Dein Inserate-Code")
     }
-
+    
     async sendContact() {
         await this.send("sendContact", "Du wurdest kontaktiert")
     }

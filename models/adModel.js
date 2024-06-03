@@ -33,7 +33,6 @@ const adSchema = new mongoose.Schema({
         type: String,
         required: false,
         select: false, //-> not returned in projection
-        select: false,
         unique: true,
     },
     email: {
