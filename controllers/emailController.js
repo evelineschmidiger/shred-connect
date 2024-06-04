@@ -3,7 +3,7 @@ const Ad = require("./../models/adModel")
 
 
 exports.sendCodeEmail = async (req, res) => {
-    console.log(req.body);
+
     const data = {
         name: req.body.name || "",
         to: req.body.email || "",

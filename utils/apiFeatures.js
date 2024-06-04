@@ -83,7 +83,6 @@ class APIFeatures {
 
         // example: page=2&limit=10
         this.query = this.query.skip(skip).limit(limit);
-                console.log(this.queryString);
         return this;
 
     }

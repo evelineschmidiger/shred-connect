@@ -1,5 +1,55 @@
 [
     {
+        "name": "Chaos Conductor",
+        "messageEN": "Unleash sonic chaos with Chaos Conductor! We're on the hunt for a versatile drummer who can command the rhythm with relentless precision. If you can navigate the tempest of beats and lead our cacophony to victory, join our symphony of disorder. Drummers, apply now and let the chaos reign!",
+        "message": "Entfessle den klanglichen Chaos mit Chaos Conductor! Wir suchen einen vielseitigen Schlagzeuger, der den Rhythmus mit unerbittlicher Präzision beherrschen kann. Wenn du den Sturm der Beats navigieren und unsere Kakophonie zum Sieg führen kannst, schliesse dich unserer Symphonie der Unordnung an. Schlagzeuger, bewerbt euch jetzt und lasst das Chaos herrschen!",
+        "style": ["progressive", "experimental"],
+        "instrument": ["Schlagzeug"],
+        "canton": "Thurgau",
+        "image": "choice_06",
+        "email": "eveline.schmidiger@protonmail.com"
+    },
+    {
+        "name": "Infernal Incantation",
+        "messageEN": "Invoke the infernal with Infernal Incantation! We're seeking a vocalist who can channel the flames of damnation with infernal growls and demonic shrieks. If your voice can pierce the veil between worlds and summon the legions of the abyss, join our unholy ritual. Vocalists, apply now and let the infernal incantation begin!",
+        "message": "Beschwöre das Infernalische mit Infernal Incantation! Wir suchen einen Sänger, der die Flammen der Verdammnis mit infernalen Growls und dämonischen Schreien entfachen kann. Wenn deine Stimme den Schleier zwischen den Welten durchdringen und die Legionen des Abgrunds herbeirufen kann, schliesse dich unserem unheiligen Ritual an. Sänger, bewerbt euch jetzt und lasst die infernale Beschwörung beginnen!",
+        "style": ["black", "death"],
+        "instrument": ["Gesang"],
+        "canton": "Valais",
+        "image": "choice_06",
+        "email": "eveline.schmidiger@protonmail.com"
+    },
+    {
+        "name": "Spectral Serenade",
+        "messageEN": "Haunt the night with Spectral Serenade! We're in search of a guitarist who can weave ethereal melodies and summon spectral harmonies. If you can pluck the strings of the afterlife and serenade the souls of the departed, join our ghostly ensemble. Guitarists, apply now and let the spectral serenade echo through eternity!",
+        "message": "Heimsuche die Nacht mit Spectral Serenade! Wir suchen einen Gitarristen, der ätherische Melodien weben und spektrale Harmonien heraufbeschwören kann. Wenn du die Saiten des Jenseits zupfen und die Seelen der Verstorbenen serenadisieren kannst, schliesse dich unserem gespenstischen Ensemble an. Gitarristen, bewerbt euch jetzt und lasst die spektrale Serenade durch die Ewigkeit hallen!",
+        "style": ["gothic", "atmospheric"],
+        "instrument": ["Gitarre"],
+        "canton": "Graubünden",
+        "image": "choice_09",
+        "email": "eveline.schmidiger@protonmail.com"
+    },
+    {
+        "name": "Astral Anomaly",
+        "messageEN": "Explore the cosmos with Astral Anomaly! We're seeking a keyboardist who can traverse the celestial expanse and evoke cosmic symphonies. If you can conjure melodies from the stars and harmonize with the universe itself, join our astral expedition. Keyboardists, apply now and let the astral anomaly unfold!",
+        "message": "Erkunde das Universum mit Astral Anomaly! Wir suchen einen Keyboarder, der das himmlische Firmament durchqueren und kosmische Sinfonien hervorrufen kann. Wenn du Melodien aus den Sternen beschwören und mit dem Universum selbst harmonisieren kannst, schliesse dich unserer astralen Expedition an. Keyboarder, bewerbt euch jetzt und lasst die astrale Anomalie sich entfalten!",
+        "style": ["symphonic", "space"],
+        "instrument": ["Keyboard"],
+        "canton": "Appenzell Ausserrhoden",
+        "image": "choice_11",
+        "email": "eveline.schmidiger@protonmail.com"
+    },
+    {
+        "name": "Voidwalker",
+        "message": "Step into the void with Voidwalker! We're in need of a drummer who can navigate the abyss of rhythm and summon the primal beats of chaos. If you can command the cosmic pulse and lead our journey into the unknown, join our expedition through the void. Drummers, apply now and let the voidwalker's march begin!",
+        "messageEN": "Betrete die Leere mit Voidwalker! Wir suchen einen Schlagzeuger, der den Abgrund des Rhythmus durchqueren und die urtümlichen Beats des Chaos herbeirufen kann. Wenn du den kosmischen Puls beherrschen und unsere Reise ins Unbekannte anführen kannst, schliesse dich unserer Expedition durch die Leere an. Schlagzeuger, bewerbt euch jetzt und lasst den Marsch des Voidwalkers beginnen!",
+        "style": ["progressive", "djent"],
+        "instrument": ["Schlagzeug"],
+        "canton": "Schaffhausen",
+        "image": "choice_12",
+        "email": "eveline.schmidiger@protonmail.com"
+    },
+    {
         "name": "Brutal Slaughter Witches",
         "message": "Achtung Metalheads! Brutal Slaughter Witches, die amtierenden Titanen des extremen Metal, sind auf der Suche nach neuem Blut, um ihrem Hexenzirkel beizutreten! Wenn du auf der Gitarre schreddern, das Schlagzeug wie einen Kriegsmarsch hämmern oder dämonische Basslinien beschwören kannst, wollen wir dich. Übe in den feurigen Gruben des akustischen Chaos und werde Teil der okkulten Revolution. Bewirb dich jetzt und lass uns gemeinsam das Chaos heraufbeschwören!",
         "messageEN": "Attention Metalheads! Brutal Slaughter Witches, the reigning titans of extreme metal, are on the hunt for new blood to join their coven! If you can shred on guitar, pound the drums like a war march, or summon demonic basslines, we want you. Rehearse in the fiery pits of sonic mayhem and be part of the occult revolution. Apply now and let's conjure chaos together!",
@@ -350,56 +400,6 @@
         "email": "eveline.schmidiger@protonmail.com"
     },
     {
-        "name": "Chaos Conductor",
-        "messageEN": "Unleash sonic chaos with Chaos Conductor! We're on the hunt for a versatile drummer who can command the rhythm with relentless precision. If you can navigate the tempest of beats and lead our cacophony to victory, join our symphony of disorder. Drummers, apply now and let the chaos reign!",
-        "message": "Entfessle den klanglichen Chaos mit Chaos Conductor! Wir suchen einen vielseitigen Schlagzeuger, der den Rhythmus mit unerbittlicher Präzision beherrschen kann. Wenn du den Sturm der Beats navigieren und unsere Kakophonie zum Sieg führen kannst, schliesse dich unserer Symphonie der Unordnung an. Schlagzeuger, bewerbt euch jetzt und lasst das Chaos herrschen!",
-        "style": ["progressive", "experimental"],
-        "instrument": ["Schlagzeug"],
-        "canton": "Thurgau",
-        "image": "choice_06",
-        "email": "eveline.schmidiger@protonmail.com"
-    },
-    {
-        "name": "Infernal Incantation",
-        "messageEN": "Invoke the infernal with Infernal Incantation! We're seeking a vocalist who can channel the flames of damnation with infernal growls and demonic shrieks. If your voice can pierce the veil between worlds and summon the legions of the abyss, join our unholy ritual. Vocalists, apply now and let the infernal incantation begin!",
-        "message": "Beschwöre das Infernalische mit Infernal Incantation! Wir suchen einen Sänger, der die Flammen der Verdammnis mit infernalen Growls und dämonischen Schreien entfachen kann. Wenn deine Stimme den Schleier zwischen den Welten durchdringen und die Legionen des Abgrunds herbeirufen kann, schliesse dich unserem unheiligen Ritual an. Sänger, bewerbt euch jetzt und lasst die infernale Beschwörung beginnen!",
-        "style": ["black", "death"],
-        "instrument": ["Gesang"],
-        "canton": "Valais",
-        "image": "choice_06",
-        "email": "eveline.schmidiger@protonmail.com"
-    },
-    {
-        "name": "Spectral Serenade",
-        "messageEN": "Haunt the night with Spectral Serenade! We're in search of a guitarist who can weave ethereal melodies and summon spectral harmonies. If you can pluck the strings of the afterlife and serenade the souls of the departed, join our ghostly ensemble. Guitarists, apply now and let the spectral serenade echo through eternity!",
-        "message": "Heimsuche die Nacht mit Spectral Serenade! Wir suchen einen Gitarristen, der ätherische Melodien weben und spektrale Harmonien heraufbeschwören kann. Wenn du die Saiten des Jenseits zupfen und die Seelen der Verstorbenen serenadisieren kannst, schliesse dich unserem gespenstischen Ensemble an. Gitarristen, bewerbt euch jetzt und lasst die spektrale Serenade durch die Ewigkeit hallen!",
-        "style": ["gothic", "atmospheric"],
-        "instrument": ["Gitarre"],
-        "canton": "Graubünden",
-        "image": "choice_09",
-        "email": "eveline.schmidiger@protonmail.com"
-    },
-    {
-        "name": "Astral Anomaly",
-        "messageEN": "Explore the cosmos with Astral Anomaly! We're seeking a keyboardist who can traverse the celestial expanse and evoke cosmic symphonies. If you can conjure melodies from the stars and harmonize with the universe itself, join our astral expedition. Keyboardists, apply now and let the astral anomaly unfold!",
-        "message": "Erkunde das Universum mit Astral Anomaly! Wir suchen einen Keyboarder, der das himmlische Firmament durchqueren und kosmische Sinfonien hervorrufen kann. Wenn du Melodien aus den Sternen beschwören und mit dem Universum selbst harmonisieren kannst, schliesse dich unserer astralen Expedition an. Keyboarder, bewerbt euch jetzt und lasst die astrale Anomalie sich entfalten!",
-        "style": ["symphonic", "space"],
-        "instrument": ["Keyboard"],
-        "canton": "Appenzell Ausserrhoden",
-        "image": "choice_11",
-        "email": "eveline.schmidiger@protonmail.com"
-    },
-    {
-        "name": "Voidwalker",
-        "message": "Step into the void with Voidwalker! We're in need of a drummer who can navigate the abyss of rhythm and summon the primal beats of chaos. If you can command the cosmic pulse and lead our journey into the unknown, join our expedition through the void. Drummers, apply now and let the voidwalker's march begin!",
-        "messageEN": "Betrete die Leere mit Voidwalker! Wir suchen einen Schlagzeuger, der den Abgrund des Rhythmus durchqueren und die urtümlichen Beats des Chaos herbeirufen kann. Wenn du den kosmischen Puls beherrschen und unsere Reise ins Unbekannte anführen kannst, schliesse dich unserer Expedition durch die Leere an. Schlagzeuger, bewerbt euch jetzt und lasst den Marsch des Voidwalkers beginnen!",
-        "style": ["progressive", "djent"],
-        "instrument": ["Schlagzeug"],
-        "canton": "Schaffhausen",
-        "image": "choice_12",
-        "email": "eveline.schmidiger@protonmail.com"
-    },
-    {
         "name": "Cataclysmic Cacophony",
         "messageEN": "Unleash sonic devastation with Cataclysmic Cacophony! We're seeking a vocalist who can roar with the fury of a thousand storms and shatter the heavens with their voice. If you can harness the primal scream and unleash a cataclysm of sound, join our cacophonous choir. Vocalists, apply now and let the cataclysmic cacophony reign supreme!",
         "message": "Entfessle klangliche Verwüstung mit Cataclysmic Cacophony! Wir suchen einen Sänger, der mit der Wut von tausend Stürmen brüllen und den Himmel mit seiner Stimme zerschmettern kann. Wenn du den Ur-Schrei beherrschen und eine Kataklysmus des Klangs entfesseln kannst, schliesse dich unserem kakophonischen Chor an. Sänger, bewerbt euch jetzt und lasst die kataklysmische Kakophonie herrschen!",
@@ -478,6 +478,106 @@
         "canton": "Zug",
         "image": "choice_08",
         "email": "eveline.schmidiger@protonmail.com"
+    },
+    {
+        "name": "Necrotic Ascension",
+        "message": "Aufruf an alle Bassisten! Necrotic Ascension sucht einen Meister der dunklen Basslines, um unseren Sound auf die nächste Stufe zu heben. Wenn du bereit bist, die Tiefen der Hölle in unsere Musik zu bringen, bewirb dich jetzt und werde Teil unserer unheilvollen Reise!",
+        "messageEN": "Calling all bassists! Necrotic Ascension is seeking a master of dark basslines to elevate our sound to the next level. If you're ready to bring the depths of hell into our music, apply now and become part of our sinister journey!",
+        "style": ["death", "black", "doom"],
+        "instrument": ["Bass"],
+        "canton": "Zürich",
+        "image": "choice_03",
+        "email": "eveline.schmidiger@protonmail.com"
+    },
+    {
+        "name": "Thunderous Depths",
+        "message": "Schlagzeuger aufgepasst! Thunderous Depths sucht nach einem Trommelkünstler, der die mächtigen Wellen unseres Sounds antreiben kann. Wenn du das Zeug hast, donnernde Rhythmen zu erzeugen, die die Erde erzittern lassen, dann bewirb dich bei uns!",
+        "messageEN": "Attention drummers! Thunderous Depths is looking for a drum artist who can drive the powerful waves of our sound. If you have what it takes to create thunderous rhythms that make the earth tremble, apply now!",
+        "style": ["progressive", "heavy", "epic"],
+        "instrument": ["Schlagzeug"],
+        "canton": "Bern",
+        "email": "eveline.schmidiger@protonmail.com",
+        "image": "choice_04"
+    },
+    {
+        "name": "Eternal Frost",
+        "message": "Gitarristen der Dunkelheit, Eternal Frost sucht nach einem virtuosen Gitarristen, der die eisigen Riffs unseres kalten Universums beherrschen kann. Wenn du bereit bist, die gefrorenen Saiten zu zupfen und Teil unserer frostigen Herrschaft zu werden, bewirb dich jetzt!",
+        "messageEN": "Guitarists of darkness, Eternal Frost is looking for a virtuoso guitarist to master the icy riffs of our cold universe. If you're ready to pluck the frozen strings and become part of our frosty dominion, apply now!",
+        "style": ["black", "atmospheric", "ambient"],
+        "instrument": ["Gitarre"],
+        "canton": "Graubünden",
+        "email": "eveline.schmidiger@protonmail.com",
+        "image": "choice_05"
+    },
+    {
+        "name": "Shadow Symphony",
+        "message": "Keyboarder und Synth-Maestros aufgepasst! Shadow Symphony sucht nach einem talentierten Tastenmeister, der unsere düstere Klanglandschaft mit epischen Melodien füllen kann. Wenn du bereit bist, die Schatten zu orchestrieren, bewirb dich bei uns!",
+        "messageEN": "Keyboardists and synth maestros, attention! Shadow Symphony is looking for a talented key master to fill our dark soundscape with epic melodies. If you're ready to orchestrate the shadows, apply now!",
+        "style": ["symphonic", "gothic", "black"],
+        "instrument": ["Keyboard"],
+        "canton": "Luzern",
+        "email": "eveline.schmidiger@protonmail.com",
+        "image": "choice_06"
+    },
+    {
+        "name": "Infernal Choir",
+        "message": "Gesangsvirtuosen gesucht! Infernal Choir ist auf der Suche nach einem Sänger oder einer Sängerin, der oder die die höllischen Hymnen unserer Band anführen kann. Wenn du eine Stimme hast, die die Dämonen zum Tanzen bringt, dann bewirb dich jetzt und werde Teil unseres höllischen Chors!",
+        "messageEN": "Vocal virtuosos wanted! Infernal Choir is looking for a singer to lead the hellish hymns of our band. If you have a voice that makes demons dance, apply now and become part of our infernal choir!",
+        "style": ["black", "death", "choir"],
+        "instrument": ["Gesang"],
+        "canton": "Aargau",
+        "email": "eveline.schmidiger@protonmail.com",
+        "image": "choice_07"
+    },
+    {
+        "name": "Crimson Vortex",
+        "message": "Gitarristen und Bassisten gesucht! Crimson Vortex sucht nach talentierten Musikern, die bereit sind, die Bühne mit uns zu stürmen. Wenn du die Fähigkeit hast, die roten Wellen unseres Sounds zu reiten, dann bewirb dich jetzt und werde Teil des Vortex!",
+        "messageEN": "Guitarists and bassists wanted! Crimson Vortex is looking for talented musicians ready to storm the stage with us. If you have the skill to ride the red waves of our sound, apply now and become part of the Vortex!",
+        "style": ["thrash", "heavy", "speed"],
+        "instrument": ["Gitarre", "Bass"],
+        "canton": "Basel-Stadt",
+        "email": "eveline.schmidiger@protonmail.com",
+        "image": "choice_08"
+    },
+    {
+        "name": "Mystic Ritual",
+        "message": "Mystic Ritual sucht einen Schlagzeuger, der die rhythmischen Beschwörungen unserer Band verstärken kann. Wenn du die Kunst des Trommelns beherrschst und bereit bist, Teil unseres mystischen Rituals zu werden, dann bewirb dich jetzt!",
+        "messageEN": "Mystic Ritual is looking for a drummer to amplify the rhythmic incantations of our band. If you master the art of drumming and are ready to become part of our mystical ritual, apply now!",
+        "style": ["occult", "black", "doom"],
+        "instrument": ["Schlagzeug"],
+        "canton": "Tessin",
+        "email": "eveline.schmidiger@protonmail.com",
+        "image": "choice_09"
+    },
+    {
+        "name": "Doomed Horizon",
+        "message": "Bassisten aufgepasst! Doomed Horizon sucht einen Bassisten, der unsere schweren, doomigen Klänge verstärken kann. Wenn du tiefe, resonante Basslines spielen kannst, die das Herz der Dunkelheit treffen, dann bewirb dich jetzt und werde Teil unseres doomigen Horizonts!",
+        "messageEN": "Attention bassists! Doomed Horizon is looking for a bassist to amplify our heavy, doom-laden sounds. If you can play deep, resonant basslines that hit the heart of darkness, apply now and become part of our doomed horizon!",
+        "style": ["doom", "sludge", "heavy"],
+        "instrument": ["Bass"],
+        "canton": "Waadt",
+        "email": "eveline.schmidiger@protonmail.com",
+        "image": "choice_10"
+    },
+    {
+        "name": "Iron Serpent",
+        "message": "Gitarristen und Sänger gesucht! Iron Serpent sucht nach talentierten Musikern, die unsere metallischen Schlangenbeschwörungen anführen können. Wenn du die Fähigkeit hast, epische Riffs und kraftvolle Vocals zu liefern, dann bewirb dich jetzt und werde Teil unseres Serpentenreichs!",
+        "messageEN": "Guitarists and vocalists wanted! Iron Serpent is looking for talented musicians to lead our metallic serpent incantations. If you have the skill to deliver epic riffs and powerful vocals, apply now and become part of our serpent realm!",
+        "style": ["heavy", "power", "epic"],
+        "instrument": ["Gitarre", "Gesang"],
+        "canton": "St.Gallen",
+        "email": "eveline.schmidiger@protonmail.com",
+        "image": "choice_11"
+    },
+    {
+        "name": "Phantom Requiem",
+        "message": "Keyboarder und Bassisten gesucht! Phantom Requiem sucht nach Musikern, die unsere geisterhaften Melodien und tiefen Klänge verstärken können. Wenn du bereit bist, die Schatten zu durchdringen und Teil unserer düsteren Symphonie zu werden, dann bewirb dich jetzt!",
+        "messageEN": "Keyboardists and bassists wanted! Phantom Requiem is looking for musicians to amplify our ghostly melodies and deep sounds. If you're ready to pierce through the shadows and become part of our dark symphony, apply now!",
+        "style": ["gothic", "symphonic", "black"],
+        "instrument": ["Keyboard", "Bass"],
+        "canton": "Genf",
+        "email": "eveline.schmidiger@protonmail.com",
+        "image": "choice_2"
     },
     {
         "name": "Lunar Lament",
