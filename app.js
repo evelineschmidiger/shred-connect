@@ -51,6 +51,7 @@ const server = app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
 
+
 // socket.io
 const io = require("socket.io")(server, {
     cors: { origin: 'http://localhost:5173'}
@@ -60,10 +61,10 @@ io.on("connection", (socket) => {
     console.log("socket connected");
 
     socket.on("created", (ad) => {
-        io.emit("created", ad);
+        socket.broadcast.emit("created", ad);
     })
     socket.on("updated", (ad) => {
-        io.emit("updated", ad);
+        socket.broadcast.emit("updated", ad);
     })
 
 })
