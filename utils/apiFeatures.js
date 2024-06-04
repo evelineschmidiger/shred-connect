@@ -6,6 +6,7 @@ class APIFeatures {
     }
 
     filter() {
+        
         // filtering
         // req.query === queryString === (formatiert: { canton: 'Luzern', limit: '10', page: '1' })
         // copy of the query object to exclude fields in filtering: destructuring + new object
@@ -20,11 +21,19 @@ class APIFeatures {
             queryObj.instrument = { nin: [ "Gitarre", "Bass", "Schlagzeug", "Gesang" ] }
         }
 
+        // styles
+        // modify query object from this: style: "alternative"
+        // to this: style: { $in: ["black", "post", "death", "alternative"] }
+        // no converting when empty or 1 value in styles array
+        if (typeof queryObj.style === "object") {
+            queryObj.style = { in: [...queryObj.style] }
+        }
+
         // advanced filtering
         let queryStr = JSON.stringify(queryObj);
         // console.log(queryStr); -> in JSON-strings {"canton":"Luzern"} without pagination
         // replace operators from query gte to $gte with RegEX, matches if it is this exact word, not word containing "lt"
-        queryStr = queryStr.replace(/\b(gte|gt|lte|lt|all|nin)\b/g, match => `$${match}`);
+        queryStr = queryStr.replace(/\b(gte|gt|lte|lt|all|nin|in)\b/g, match => `$${match}`);
         // console.log(queryStr); -> in JSON-strings {"canton":"Luzern"} without pagination
 
 
@@ -48,7 +57,7 @@ class APIFeatures {
             // setting sort-property on query object - sort: "fieldname"
             this.query = this.query.sort(this.queryString.sort);
         } else {
-            this.query = this.query.sort("-createdAt");
+            this.query = this.query.sort("-updatedAt");
         }
         return this;
     }
@@ -74,7 +83,9 @@ class APIFeatures {
 
         // example: page=2&limit=10
         this.query = this.query.skip(skip).limit(limit);
+                console.log(this.queryString);
         return this;
+
     }
 }
 

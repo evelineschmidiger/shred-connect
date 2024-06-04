@@ -12,6 +12,7 @@ exports.getAllAds = async (req, res) => {
         const lengthWithoutPaginate = (await featuresWithoutPaginate.query).length;
 
         const features = new APIFeatures(Ad.find(), req.query).filter().sort().limitFields().paginate();
+        //console.log(features.queryString);
         const ads = await features.query;
 
         res.status(200).json({
