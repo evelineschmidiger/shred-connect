@@ -9,23 +9,30 @@ const cors = require("cors");
 
 // Connect to DB
 const DB = process.env.DATABASE.replace("<PASSWORD>", process.env.DATABASE_PASSWORD)
-mongoose.connect(DB, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-    useUnifiedTopology: true
-}).then(con => console.log("DB connection successful!"))
+const mongooseConnect = async () => {
+    try {
+        await mongoose.connect(DB);
+        console.log("DB connection successful");
+    } catch (error) {
+    console.error(error);
+    }
+}
+mongooseConnect();
+// Handle errors after initial connection was established
+mongoose.connection.on('error', err => {
+    console.error;("mongoose.connection.on-error:", err);
+});
 
 
 const app = express();
-
 
 // Serves static files 127.0.0.1:7777/index.html
 app.use(express.static(path.join(__dirname, "public")));
 
 //app.use(cors({origin: 'http://localhost:5173', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
-app.use(cors({origin: 'http://localhost:5173', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
-app.use(cors({origin: 'https://shred-connect-frontend-1.onrender.com/', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
+//app.use(cors({origin: 'http://localhost:5173', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
+//app.use(cors({origin: 'https://shred-connect-frontend-1.onrender.com/', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
+app.use(cors({origin: '*', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
 
 
 // Middleware - ads body data to request object
@@ -55,7 +62,7 @@ const server = app.listen(port, () => {
 
 // socket.io
 const io = require("socket.io")(server, {
-    cors: { origin: 'http://localhost:5173'}
+    cors: { origin: '*'}
 });
 
 io.on("connection", (socket) => {
