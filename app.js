@@ -32,12 +32,7 @@ app.use(express.static(path.join(__dirname, "public")));
 //app.use(cors({origin: 'http://localhost:5173', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
 //app.use(cors({origin: 'http://localhost:5173', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
 //app.use(cors({origin: 'https://shred-connect-frontend-1.onrender.com/', credentials: true, exposedHeaders: ['Set-Cookie', 'Date', 'ETag']}))
-app.use(cors({
-    "origin": "*",
-    "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
-    "preflightContinue": false,
-    "optionsSuccessStatus": 204
-}))
+app.use(cors())
 
 
 // Middleware - ads body data to request object
