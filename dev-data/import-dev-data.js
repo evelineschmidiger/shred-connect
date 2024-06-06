@@ -7,12 +7,7 @@ dotenv.config({path: "./config.env"}) // process.env.NODE-ENV === "development"
 
 const DB = process.env.DATABASE.replace("<PASSWORD>", process.env.DATABASE_PASSWORD)
 
-mongoose.connect(DB, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-    useUnifiedTopology: true
-}).then(con => console.log("DB connection successful!"))
+mongoose.connect(DB).then(con => console.log("DB connection successful!"))
 
 const ads = JSON.parse(fs.readFileSync(`${__dirname}/adverts.json`, "utf-8"));
 

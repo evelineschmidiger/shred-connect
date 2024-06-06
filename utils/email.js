@@ -6,7 +6,7 @@ const { convert } = require("html-to-text");
 
 module.exports = class Email {
     constructor(data) {
-        this.to = (process.env.NODE_ENV === "development") ? data.to : "eveline.schmidiger@protonmail.com"
+        this.to = (process.env.NODE_ENV === "development") ? data.to : "hans-pro-shredder@protonmail.com"
         this.contactName = data.contactName || "";
         this.contactEmail = data.contactEmail || "";
         this.contactMessage = data.contactMessage || "";
